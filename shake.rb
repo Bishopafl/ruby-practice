@@ -25,10 +25,12 @@ class Ingredient
 	end
 end
 
-nizars_milkshake = MilkShake.new
+adams_milkshake = MilkShake.new
 banana = Ingredient.new("Banana", 2)
-chocolate_chips = Ingredient.new("Chocolate Chips")
+chocolate_chips = Ingredient.new("Chocolate Chips", 4)
+adams_milkshake.add_ingredient(banana)
+adams_milkshake.add_ingredient(chocolate_chips)
 
-puts nizars_milkshake
+puts adams_milkshake
 
 
